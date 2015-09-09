@@ -22,8 +22,7 @@ function toggleSidebar() {
 		var sidebar = document.createElement('div');
 		sidebar.id = "mySidebar";
 		sidebar.innerHTML = "\
-			<h1>Hello</h1>\
-			World!\
+			<iframe id='if1' width='100%' height='100%' style='visibility:visible' src='http://www.google.co.in/custom?q=&btnG=Search'></iframe>\
 		";
 		sidebar.style.cssText = "\
 			position:fixed;\
@@ -31,7 +30,7 @@ function toggleSidebar() {
 			left:0px;\
 			width:30%;\
 			height:100%;\
-			background:white;\
+			background:black;\
 			box-shadow:inset 0 0 1em black;\
 			z-index:999999;\
 		";

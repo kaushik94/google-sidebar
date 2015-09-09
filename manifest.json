@@ -1,14 +1,14 @@
 {
-	"name": "Inject sidebar",
+	"name": "Google search sidebar",
 	"manifest_version": 2,
-	"description": "Inject a sidebar on the current tab when the page action is clicked",
+	"description": "Inject a google search sidebar on the current tab when the page action is clicked",
 	"version": "0.2",
 	"background": {
 		"page": "background.html"
 	},
 	"page_action": {
 		"default_icon": "icon.png",
-		"default_title": "Inject sidebar"
+		"default_title": "Google search sidebar"
 	},
 	"content_scripts": [
 		{
